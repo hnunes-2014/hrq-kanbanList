@@ -1,1 +1,51 @@
 
+{
+  "tasks": {
+    "task-1":{
+      "title":"Take out the garbage",
+      "content":"Take out the garbage",
+      "description":"teste teste teste outr teste",
+      "dateCreate":"Tue Sep 24 2019 01:38:28 GMT-0300 (Horário Padrão de Brasília)",
+      "id":"task-1"
+    },
+    "task-2": {
+      "title":"Watch my favorite show",
+      "content":"Watch my favorite show",
+      "id":"task-2",
+      "description":"teste 333333 teste teste outr teste",
+      "dateCreate":"Tue Sep 24 2019 01:38:28 GMT-0300 (Horário Padrão de Brasília)"
+    },
+    "task-3":{
+      "title":"Charge my phone",
+      "content":"Charge my phone",
+      "id":"task-3",
+      "description":"teste 555555555 teste teste outr teste",
+      "dateCreate":"Tue Sep 24 2019 01:38:28 GMT-0300 (Horário Padrão de Brasília)"
+    },
+    "task-4":{
+      "title":"Cook dinner",
+      "content":"Cook dinner",
+      "id":"task-4",
+      "description":"teste 2222222222 teste teste outr teste",
+      "dateCreate":"Tue Sep 24 2019 01:38:28 GMT-0300 (Horário Padrão de Brasília)"
+    }
+  },
+  "columns":{
+    "column-1":{
+      "id":"column-1",
+      "title":"To do",
+      "taskIds":[]
+    },
+    "column-2":{
+      "id":"column-2",
+      "title":"In progress",
+      "taskIds":[]
+    },
+    "column-3": {
+      "id":"column-3",
+      "title":"Done",
+      "taskIds":["task-1","task-4","task-2","task-3"]
+    }
+  },
+  "columnOrder":["column-1","column-2","column-3"]
+}
